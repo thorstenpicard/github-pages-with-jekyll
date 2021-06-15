@@ -1,5 +1,29 @@
 ---
-title: "Thorsten's blog"
+title: What is the Internet and how does it work?
 date: 2021-06-15
 ---
-Test: Hey, this is my first blog post. I'm just writing something, nothing interesting to be honest. Will get back later to this. 
+By the end of the year 2020, I finished reading Edward Snowden’s 2019 book Permanent Record. In this book Snowden writes about, among other things, the origin of the internet and how as a child he connected his computer at home with it. The complexity of this process contrasts sharply with the ease of accessing the internet today. This contrast made me wonder what exactly the internet is and how it works.
+
+**A definition of the internet*
+
+The internet is conceived in different ways: one speaks of a logical architecture that makes it possible to connect any type of network machine, a global information system and a worldwide network of interconnected computer networks (Crawford, 2007; Internet Society, n.d.). For this article, the last definition is sufficient. A common misconception is that the internet is the same as the World Wide Web (www or the ‘web’). However, the web is an application of the internet, just as electronic mail (email) and file transfer are.
+
+**The infrastructure of the internet**
+
+Internet traffic comes about in various ways, for example by means of cables and satellite. It is especially the thousands of kilometers of (submarine) cables spread all over the world that make it possible. For example, 99% of the transoceanic internet traffic passes through the fiber optic cables that lie at the bottom of the oceans (Starosielski, 2015). According to TeleGeography (n.d.), a telecommunications market research and consultancy firm, there have been approximately 406 submarine cables in use since 2020, covering a distance of more than 1.2 million kilometers. This map from TeleGeography (2021) shows where these cables are located and come ashore.
+
+The cables are then led further into the country and connected to other networks or internet exchange points, such as the Amsterdam Internet Exchange (AMS-IX) point. Various other networks can be connected to such a point, such as those of Internet Service Providers (ISP) and telecom companies (AMS-IX, n.d.). The ISP ensures that the internet enters the households, after which devices can be connected to the internet via an ethernet cable or Wireless Fidelity (WiFi) that are connected to a modem or router. When using the mobile network, the connection to the internet is facilitated by the cell towers of telecom companies.
+
+Satellite internet is a useful way to provide internet access to poorly accessible areas, such as mountains or rural areas. Various companies are involved in this technology, including SpaceX (Starlink), Amazon (Kuiper Systems) and OneWeb.
+
+Data transmission over the internet
+
+Protocols ensure that computers communicate in a standardised way with each other. These protocols are developed and promoted by the Internet Engineering Task Force (IETF) and are included in the Request For Comments (RFC) document. The Transmission Communication Protocol (TCP) and Internet Protocol (IP) are two cornerstones of the communication process. The TCP has two core functions: sending and receiving information (Cerf and Kahn, 1974). This information arrives or is prepared as datagrams (data packets). The IP then takes care of the transmission and possible fragmentation and assembly of the datagrams. The IP has all the information it needs: the sender, the recipient and the content. The ‘address’ of the recipient is a series of numbers, which is called the IP address (Postel, 1981). Every household that has an internet connection and a modem is able to connect to the internet and therefore has an IP address. It is thus possible that a website that is stored on a server is sent to the device that requested this website.
+
+A closer look at the World Wide Web
+
+The World Wide Web is an information system that makes information available and accessible via the internet (Sample, 2018). Web browsers, such as Firefox, Safari, and Chrome, are software that allow easy access to the Web and search through engines such as Google, Bing, and Yahoo for information on the Web. The relationship between a computer that searches for information and a computer that can provide it is called the client-server model. For example, the client is looking for a website that is stored on a web server. The Uniform Resource Locator (URL) indicates the exact location of such a website on the web. People often only enter the domain name to visit a website. Behind this domain name is an IP address, the data with which computers communicate. The system that maintains the association of domain names with IP addresses is called the Domain Name System (DNS).
+
+The web consists of three layers: the surface web, the deep web, and the dark web. The surface web consists of all web pages indexed by the search engine being used. The deep web consists of web pages that are protected by login details and/or a paywall (Sample, 2018). Consider, for example, the online articles of a newspaper or the intranet of a university or office. The dark web is part of the deep web and is a global and private computer network on which one can conduct anonymous transactions. A well-known example of such a network is the Tor network. With the Tor browser, one can access this network and thus, for example, visit web pages anonymously regardless of the layer on which these web pages are located (Ghappour, 2017). The dark web is therefore known for being an attractive medium for criminals, but it also offers journalists and whistleblowers the space to pass on sensitive information to each other in a safer way compared to the surface web.
+
+In summary, the internet is a worldwide network of computer networks. One can connect to the internet in various ways, but it is mainly the thousands of kilometers of cables spread all over the world that facilitate internet traffic. Communication protocols allow information to be exchanged between computers in an effective and efficient manner. The internet has various applications, including the World Wide Web.
