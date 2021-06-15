@@ -4,7 +4,7 @@ date: 2021-06-15
 ---
 By the end of the year 2020, I finished reading Edward Snowden’s 2019 book Permanent Record. In this book Snowden writes about, among other things, the origin of the internet and how as a child he connected his computer at home with it. The complexity of this process contrasts sharply with the ease of accessing the internet today. This contrast made me wonder what exactly the internet is and how it works.
 
-**A definition of the internet*
+**A definition of the internet**
 
 The internet is conceived in different ways: one speaks of a logical architecture that makes it possible to connect any type of network machine, a global information system and a worldwide network of interconnected computer networks (Crawford, 2007; Internet Society, n.d.). For this article, the last definition is sufficient. A common misconception is that the internet is the same as the World Wide Web (www or the ‘web’). However, the web is an application of the internet, just as electronic mail (email) and file transfer are.
 
@@ -16,11 +16,11 @@ The cables are then led further into the country and connected to other networks
 
 Satellite internet is a useful way to provide internet access to poorly accessible areas, such as mountains or rural areas. Various companies are involved in this technology, including SpaceX (Starlink), Amazon (Kuiper Systems) and OneWeb.
 
-Data transmission over the internet
+**Data transmission over the internet**
 
 Protocols ensure that computers communicate in a standardised way with each other. These protocols are developed and promoted by the Internet Engineering Task Force (IETF) and are included in the Request For Comments (RFC) document. The Transmission Communication Protocol (TCP) and Internet Protocol (IP) are two cornerstones of the communication process. The TCP has two core functions: sending and receiving information (Cerf and Kahn, 1974). This information arrives or is prepared as datagrams (data packets). The IP then takes care of the transmission and possible fragmentation and assembly of the datagrams. The IP has all the information it needs: the sender, the recipient and the content. The ‘address’ of the recipient is a series of numbers, which is called the IP address (Postel, 1981). Every household that has an internet connection and a modem is able to connect to the internet and therefore has an IP address. It is thus possible that a website that is stored on a server is sent to the device that requested this website.
 
-A closer look at the World Wide Web
+**A closer look at the World Wide Web**
 
 The World Wide Web is an information system that makes information available and accessible via the internet (Sample, 2018). Web browsers, such as Firefox, Safari, and Chrome, are software that allow easy access to the Web and search through engines such as Google, Bing, and Yahoo for information on the Web. The relationship between a computer that searches for information and a computer that can provide it is called the client-server model. For example, the client is looking for a website that is stored on a web server. The Uniform Resource Locator (URL) indicates the exact location of such a website on the web. People often only enter the domain name to visit a website. Behind this domain name is an IP address, the data with which computers communicate. The system that maintains the association of domain names with IP addresses is called the Domain Name System (DNS).
 
