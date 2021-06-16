@@ -1,5 +1,5 @@
 ---
-title: "A blog about humanity"
+title: "Thorsten Picard"
 ---
 
 Hello, welcome to this blog.
