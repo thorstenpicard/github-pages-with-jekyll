@@ -1,8 +1,7 @@
 title: Blog
 author: Thorsten Picard
 email: # your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is my website
+description: 
 
 # social links
 twitter_username: # DO NOT include the @ character, or else the build will fail!
